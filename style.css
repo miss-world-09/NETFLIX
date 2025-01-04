@@ -83,8 +83,11 @@ body{
 }
 .btn{
     padding: 3px 8px;
-    font-weight: bold;
-    background-color: white;
+    font-weight: 400px;
+    background-color: rgba(248,243,243,0.021);
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
 }
 .btn-red{
     background-color: red;
@@ -110,4 +113,24 @@ body{
 .btn-red-sm{
     background-color: red;
     color: white;
+}
+.secimg {
+    display: flex;
+    gap: 10px;
+    cursor: grab;
+    overflow-x: scroll; /* Enable horizontal scrolling */
+    scroll-behavior: smooth; /* Smooth scroll effect */
+}
+
+.secimg::-webkit-scrollbar {
+    height: 5px;
+}
+
+.secimg::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+.secimg.active {
+    cursor: grabbing;
 }
