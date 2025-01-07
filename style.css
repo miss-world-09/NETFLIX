@@ -173,7 +173,7 @@ body{
   
     .reason-box {
         /* background-color: rgba(255, 255, 255, 0.1); */
-        background: linear-gradient(135deg, #2b2b2b, #1a1a1a); /* Gradient background */
+        background: linear-gradient(135deg, #17177bcc, #250127); /* Gradient background */
          border-radius: 8px;
         padding: 20px;
         position: relative;
@@ -198,6 +198,7 @@ body{
         font-size: 14px;
         line-height: 1.5;
         margin: 0;
+        color: #ccc;
     }
     .reason-box svg{
         position: absolute;
