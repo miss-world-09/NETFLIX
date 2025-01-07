@@ -173,7 +173,7 @@ body{
   
     .reason-box {
         /* background-color: rgba(255, 255, 255, 0.1); */
-        background: linear-gradient(135deg, #17177bcc, #250127); /* Gradient background */
+        background: linear-gradient(135deg, #4b4b8bcc, #250127); /* Gradient background */
          border-radius: 8px;
         padding: 20px;
         position: relative;
