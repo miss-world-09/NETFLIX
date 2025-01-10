@@ -209,7 +209,15 @@ body{
     .reason-box:hover {
         transform: scale(1.05); /* Subtle zoom effect on hover */
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-    }    
+    }  
+    #ques {
+     
+        padding: 70px 20px;
+        background-color: #141414;
+        color: white;
+        font-weight: lighter;
+/* align-items: flex-start;         */
+    }  
     
 
 
