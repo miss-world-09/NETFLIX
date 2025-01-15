@@ -210,14 +210,43 @@ body{
         transform: scale(1.05); /* Subtle zoom effect on hover */
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
     }  
-    #ques {
-     
-        padding: 70px 20px;
-        background-color: #141414;
+     section.first>div :nth-child(2){
+        font-size:24px;
+        color:white;
+     }
+       #ques h2{
+        text-align: left;
+        font-size: 28px;
+        margin-bottom: 20px; /* Adds space between the header and the boxes */
+        margin-left: 160px; /* Adjust to align with the first box */
+
+       }
+       #ques{
+        background:black;
         color: white;
-        font-weight: lighter;
-/* align-items: flex-start;         */
-    }  
+     padding: 34px;
+     
+       }
+       .quesbox svg{
+        filter: invert(1)
+       }
+       .quesbox:hover{
+        background-color: rgb(37,36,36);
+       }
+
+    .quesbox{
+    transition:all 1s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 20px;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
+    
+
+    }
     
 
 
