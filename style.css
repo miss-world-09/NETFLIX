@@ -114,6 +114,18 @@ body{
     background-color: red;
     color: white;
 }
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 10px; /* Space between heading and slider */
+    padding-left: 10px; /* Adjust spacing */
+    color: #fff; /* Adjust based on background */
+}
+
+.image-slider{
+    padding: 100px;
+}
 .secimg {
     display: flex;
     gap: 10px;
