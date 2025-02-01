@@ -11,9 +11,9 @@ body{
 .main{
     background-image: url("bg.jpg");
     background-position: center center;
-    background-size: max(1200px, 100vw);
+    background-size: max(1200px, 120vw);
     background-repeat: no-repeat;
-    height: 70vh;
+    height: 100vh;
     position: relative;
 }
 .main.box{
@@ -119,8 +119,9 @@ body{
     font-weight: bold;
     text-align: left;
     margin-bottom: 10px; /* Space between heading and slider */
-    padding-left: 10px; /* Adjust spacing */
+    padding-left: 70px; /* Adjust spacing */
     color: #fff; /* Adjust based on background */
+    display: block;
 }
 
 .image-slider{
@@ -132,6 +133,7 @@ body{
     cursor: grab;
     overflow-x: scroll; /* Enable horizontal scrolling */
     scroll-behavior: smooth; /* Smooth scroll effect */
+    /* width: 150px; */
 }
 
 .secimg::-webkit-scrollbar {
@@ -148,8 +150,8 @@ body{
 }
 #reason {
      
-        padding: 70px 20px;
-        background-color: #141414;
+        padding: 0px 20px;
+        background-color: black;
         color: white;
         font-weight: lighter;
 /* align-items: flex-start;         */
@@ -187,7 +189,7 @@ body{
         /* background-color: rgba(255, 255, 255, 0.1); */
         background: linear-gradient(135deg, #4b4b8bcc, #250127); /* Gradient background */
          border-radius: 8px;
-        padding: 20px;
+        padding: 5px;
         position: relative;
         text-align: left;
         border-radius: 6px;
@@ -236,7 +238,7 @@ body{
        #ques{
         background:black;
         color: white;
-     padding: 34px;
+     padding: 54px;
      
        }
        .quesbox svg{
